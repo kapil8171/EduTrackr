@@ -1,61 +1,59 @@
-# EduTrackr 📚
+# 📖 EduTrackr – A Smart Study Assistant App
 
-**EduTrackr – A smart study assistant app** that helps students track subjects, tasks, and study hours with real-time progress visualization.
+![Made with Kotlin](https://img.shields.io/badge/Made%20with-Kotlin-7f52ff.svg)
+![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-blue)
+![Material3](https://img.shields.io/badge/Material%20Design-3-4285F4.svg)
+![Architecture-MVI](https://img.shields.io/badge/Architecture-MVI-green)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+**EduTrackr** is a modern, responsive study assistant app for students.  
+It helps track **subjects, tasks, and study sessions** with **real-time progress visualization**, enabling students to manage their study schedules smartly and effectively.  
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- Add subjects with goal study hours.
-- Create and manage tasks with:
+- 📚 **Subjects Management** – Add subjects with goal study hours.  
+- 📝 **Task Management** – Create tasks with:
   - Title  
   - Description  
   - Due Date  
-  - Priority Level (Low / Medium / High)
-- Start study sessions for each subject and track progress in real-time.
-- Mark tasks as completed using a checkbox (moves to "Completed Tasks").
-- View upcoming and completed tasks in one place.
-- Track sessions within each subject (start, stop, finish, delete).
-- Update or delete subjects, tasks, and sessions anytime.
-- Dashboard overview with:
+  - Priority Level (Low / Medium / High)  
+- 🎯 **Study Sessions** – Start/stop sessions with a timer and track study hours per subject.  
+- ✅ **Progress Tracking** – Visualize subject progress based on completed study hours vs. goal.  
+- 📅 **Upcoming & Completed Tasks** – Mark tasks as completed and view history.  
+- 🔄 **Update/Delete** – Subjects, tasks, and study sessions can be updated or deleted anytime.  
+- 📊 **Dashboard Overview** –  
   - Total subjects  
-  - Goal study hours vs. studied hours  
+  - Goal vs. studied hours  
   - Upcoming tasks  
   - Completed tasks  
-  - Recent study sessions
-
----
-
-## 📱 Screens
-
-1. **Dashboard Screen** – Overview of subjects, study progress, and tasks.  
-2. **Subject Screen** – Subject details, progress tracking, upcoming tasks, and add tasks option.  
-3. **Task Screen** – Add/manage tasks with details.  
-4. **Session Screen** – Start, pause, stop, and save study sessions with timer and notifications.
+  - Recent study sessions  
+- 🔔 **Smart Notifications** – Foreground service with session timer notifications + deep linking.  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language:** Kotlin  
-- **UI:** Jetpack Compose + Material 3  
-- **Architecture:** Clean Architecture (MVI Pattern)  
-- **Database:** Room (Local Storage)  
-- **Async Programming:** Coroutines & Flows  
-- **Dependency Injection:** Dagger Hilt (`@HiltViewModel`)  
-- **Service & Notifications:** Bound & Foreground Service for study timer, Post Notifications, Deep Linking from notification  
-- **Navigation:** Compose Navigation for smooth navigation  
+| Layer            | Technology/Library                                |
+|------------------|---------------------------------------------------|
+| Language         | Kotlin                                            |
+| UI Design        | Jetpack Compose + Material3                       |
+| Architecture     | Clean Architecture + MVI Pattern                  |
+| Asynchronous     | Kotlin Coroutines + Flow                          |
+| Local Storage    | Room Database                                     |
+| Dependency Inj.  | Dagger Hilt (`@HiltViewModel`)                    |
+| Navigation       | Jetpack Compose Navigation + Deep Linking         |
+| Services         | Bound & Foreground Service for timer tracking     |
+| Notifications    | Post Notifications with deep link to app session  |
 
 ---
 
-## 📸 Screenshots
+## 📲 App Flow
 
-(Add app screenshots here)
-
----
-
-## 📦 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/EduTrackr.git
+```text
+DashboardScreen
+    ↓
+SubjectScreen (subject details + tasks + progress)
+    ├──→ TaskScreen (Add/Edit tasks)
+    └──→ SessionScreen (Start/Stop study session)
