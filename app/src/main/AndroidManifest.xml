@@ -2,7 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"/>
+
+
     <application
+        android:name=".StudySmartApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -21,7 +27,25 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+            <intent-filter android:autoVerify="false">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="study_smart" />
+                <data android:host="dashboard" />
+                <data android:pathPattern="/session" />
+                <!-- Alternative if you want to catch anything for study_smart://dashboard -->
+                <!-- <data android:scheme="study_smart" android:host="dashboard" /> -->
+            </intent-filter>
+
         </activity>
+
+
+
+        <service android:name=".presentation.session.StudySessionTimerService"
+            android:exported="false"
+            android:foregroundServiceType="mediaPlayback"/>
     </application>
 
 </manifest>
