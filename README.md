@@ -57,3 +57,6 @@ DashboardScreen
 SubjectScreen (subject details + tasks + progress)
     ├──→ TaskScreen (Add/Edit tasks)
     └──→ SessionScreen (Start/Stop study session)
+
+![Dashboard_Screen](https://github.com/user-attachments/assets/b59a8ca5-a0e6-4a24-b969-0ee9e779b97b)
+
