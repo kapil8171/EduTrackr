@@ -58,5 +58,12 @@ SubjectScreen (subject details + tasks + progress)
     ├──→ TaskScreen (Add/Edit tasks)
     └──→ SessionScreen (Start/Stop study session)
 
-![Dashboard_Screen](https://github.com/user-attachments/assets/b59a8ca5-a0e6-4a24-b969-0ee9e779b97b)
+
+## 📸 Screenshots
+![Dashboard_Screen](https://github.com/user-attachments/assets/4d0bf410-f8e4-4a0e-89bb-4d9a8a686fb8)
+![Subject_Screen](https://github.com/user-attachments/assets/46cc083b-a1fb-487a-a930-2f97d5d382da)
+![Task_Screen](https://github.com/user-attachments/assets/44e2432d-fda5-4bad-ab42-c01fff992870)
+![Timer_Screen](https://github.com/user-attachments/assets/b83fe653-6e60-49c5-8852-d1deae841d08)
+
+
 
