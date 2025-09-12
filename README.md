@@ -1,10 +1,13 @@
+
 # 📖 EduTrackr – A Smart Study Assistant App
 
-![Made with Kotlin](https://img.shields.io/badge/Made%20with-Kotlin-7f52ff.svg)
-![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-blue)
-![Material3](https://img.shields.io/badge/Material%20Design-3-4285F4.svg)
-![Architecture-MVI](https://img.shields.io/badge/Architecture-MVI-green)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+<p align="center">
+  <img src="https://img.shields.io/badge/Made%20with-Kotlin-7f52ff.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Material%20Design-3-4285F4.svg?style=for-the-badge&logo=materialdesign&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Architecture-MVI-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+</p> 
 
 **EduTrackr** is a modern, responsive study assistant app for students.  
 It helps track **subjects, tasks, and study sessions** with **real-time progress visualization**, enabling students to manage their study schedules smartly and effectively.  
@@ -51,40 +54,67 @@ It helps track **subjects, tasks, and study sessions** with **real-time progress
 
 ## 📲 App Flow
 
-```text
-DashboardScreen
-    ↓
-SubjectScreen (subject details + tasks + progress)
-    ├──→ TaskScreen (Add/Edit tasks)
-    └──→ SessionScreen (Start/Stop study session)
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8b237a73-1ad4-4a09-b44d-b4b7bb19883e" alt="App Flow Chart" width="300"/>
+</p>
+
 
 ---
 
 
+
+
 ## 📸 Screenshots
 
-<p align="center">
-  <div>
-    <p align="center"><b>📊 Dashboard Screen</b></p>
-    <img src="https://github.com/user-attachments/assets/4d0bf410-f8e4-4a0e-89bb-4d9a8a686fb8" alt="Dashboard" width="160"/>
-  </div>
-  <div>
-    <p align="center"><b>📚 Subject Screen</b></p>
-    <img src="https://github.com/user-attachments/assets/46cc083b-a1fb-487a-a930-2f97d5d382da" alt="Subject" width="160"/>
-  </div>
-</p>
+<table align="center">
+  <tr>
+    <th>📊 Dashboard</th>
+    <th>📚 Subject</th>
+    <th>📝 Task</th>
+    <th>⏱️ Timer</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/4d0bf410-f8e4-4a0e-89bb-4d9a8a686fb8" width="140"></td>
+    <td><img src="https://github.com/user-attachments/assets/46cc083b-a1fb-487a-a930-2f97d5d382da" width="140"></td>
+    <td><img src="https://github.com/user-attachments/assets/44e2432d-fda5-4bad-ab42-c01fff992870" width="140"></td>
+    <td><img src="https://github.com/user-attachments/assets/b83fe653-6e60-49c5-8852-d1deae841d08" width="140"></td>
+  </tr>
 
-<p align="center">
-  <div>
-    <p align="center"><b>📝 Task Screen</b></p>
-    <img src="https://github.com/user-attachments/assets/44e2432d-fda5-4bad-ab42-c01fff992870" alt="Task" width="160"/>
-  </div>
-  <div>
-    <p align="center"><b>⏱️ Timer Screen</b></p>
-    <img src="https://github.com/user-attachments/assets/b83fe653-6e60-49c5-8852-d1deae841d08" alt="Timer" width="160"/>
-  </div>
-</p>
+<!-- Second row start -->
+ <!--
+  <tr>
+    <th>📅 Upcoming Tasks</th>
+    <th>✅ Completed Tasks</th>
+    <th>📊 Progress</th>
+    <th>🔔 Notifications</th>
+  </tr>
+  <tr>
+    <td><img src="URL_TO_IMAGE" width="140"></td>
+    <td><img src="URL_TO_IMAGE" width="140"></td>
+    <td><img src="URL_TO_IMAGE" width="140"></td>
+    <td><img src="URL_TO_IMAGE" width="140"></td>
+  </tr
+  -->
+  <!-- Second row end -->
+  
+</table>
+
+## 🎥 Demo  
+
+Here’s a quick walkthrough of **EduTrackr** in action:  
+
+<!-- ### ▶️ Watch on GitHub  
+[Demo Video](https://github.com/kapil8171/EduTrackr/assets/your-github-userid/your-video-id)  
+-->
+<!-- *(Plays directly inside GitHub – no need to leave the repo)*  -->
+
+<!--▶️ Watch on Google Drive: <u>[ Demo Video](https://drive.google.com/file/d/144o9yFuH8UWkdxaHNEzsPo0n6_sE8cRg/view?usp=sharing)</u>  -->
+
+### ▶️ Watch on Google Drive  
+👉 [**Demo Video**](https://drive.google.com/file/d/144o9yFuH8UWkdxaHNEzsPo0n6_sE8cRg/view?usp=sharing)  
+
+
+
 
 
 
