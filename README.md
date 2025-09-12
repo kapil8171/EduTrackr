@@ -65,14 +65,27 @@ SubjectScreen (subject details + tasks + progress)
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4d0bf410-f8e4-4a0e-89bb-4d9a8a686fb8" alt="Dashboard" width="200"/>
-  <img src="https://github.com/user-attachments/assets/46cc083b-a1fb-487a-a930-2f97d5d382da" alt="Subject" width="200"/>
+  <div>
+    <p align="center"><b>📊 Dashboard Screen</b></p>
+    <img src="https://github.com/user-attachments/assets/4d0bf410-f8e4-4a0e-89bb-4d9a8a686fb8" alt="Dashboard" width="160"/>
+  </div>
+  <div>
+    <p align="center"><b>📚 Subject Screen</b></p>
+    <img src="https://github.com/user-attachments/assets/46cc083b-a1fb-487a-a930-2f97d5d382da" alt="Subject" width="160"/>
+  </div>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/44e2432d-fda5-4bad-ab42-c01fff992870" alt="Task" width="200"/>
-  <img src="https://github.com/user-attachments/assets/b83fe653-6e60-49c5-8852-d1deae841d08" alt="Timer" width="200"/>
+  <div>
+    <p align="center"><b>📝 Task Screen</b></p>
+    <img src="https://github.com/user-attachments/assets/44e2432d-fda5-4bad-ab42-c01fff992870" alt="Task" width="160"/>
+  </div>
+  <div>
+    <p align="center"><b>⏱️ Timer Screen</b></p>
+    <img src="https://github.com/user-attachments/assets/b83fe653-6e60-49c5-8852-d1deae841d08" alt="Timer" width="160"/>
+  </div>
 </p>
+
 
 
 
